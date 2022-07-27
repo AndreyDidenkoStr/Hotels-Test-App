@@ -1,6 +1,6 @@
 # Hotels-Test-App
 
-задание взял у https://github.com/IvanKrim
+задание взял у https://github.com/IvanKrim и немного изменил условия 
 
 Требования:
 
@@ -21,9 +21,15 @@
 VIPER
 
 Адаптивная верстка кодом с использованием NSLayoutConstraint & Anchors
+
 Архитектура VIPER
+
 Работа с сетью URLSession
+
 Работа с изображениями URLSession, нативная реализация кропа изображения согласно ТЗ
+
 Кеширование изображений NSCache
+
 Отображение ошибок через UIAlerController
+
 NetworkMonitor для отслеживания сетевого подключения
