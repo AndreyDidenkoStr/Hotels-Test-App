@@ -11,6 +11,10 @@
 		7C7DE4582891CEC700B619AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DE4572891CEC700B619AE /* SceneDelegate.swift */; };
 		7C7DE45A2891CEC700B619AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DE4592891CEC700B619AE /* ViewController.swift */; };
 		7C7DE45F2891CEC900B619AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DE45E2891CEC900B619AE /* Assets.xcassets */; };
+		7CB787A8289C1386005F2E1C /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB787A7289C1386005F2E1C /* Hotel.swift */; };
+		7CCCB67C28929A76004A8D94 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCB67B28929A76004A8D94 /* NetworkService.swift */; };
+		7CCCB67E28929B29004A8D94 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCB67D28929B29004A8D94 /* Constant.swift */; };
+		7CCCB6802892BA85004A8D94 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCB67F2892BA85004A8D94 /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		7C7DE4592891CEC700B619AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C7DE45E2891CEC900B619AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C7DE4632891CEC900B619AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CB787A7289C1386005F2E1C /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		7CCCB67B28929A76004A8D94 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		7CCCB67D28929B29004A8D94 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		7CCCB67F2892BA85004A8D94 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C24D20C28926CA10062EEF6 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7C7DE4552891CEC700B619AE /* AppDelegate.swift */,
+				7C7DE4572891CEC700B619AE /* SceneDelegate.swift */,
+				7C7DE45E2891CEC900B619AE /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		7C7DE4492891CEC700B619AE = {
 			isa = PBXGroup;
 			children = (
@@ -52,13 +70,31 @@
 		7C7DE4542891CEC700B619AE /* Hotels Test App */ = {
 			isa = PBXGroup;
 			children = (
-				7C7DE4552891CEC700B619AE /* AppDelegate.swift */,
-				7C7DE4572891CEC700B619AE /* SceneDelegate.swift */,
+				7C24D20C28926CA10062EEF6 /* SupportingFiles */,
 				7C7DE4592891CEC700B619AE /* ViewController.swift */,
-				7C7DE45E2891CEC900B619AE /* Assets.xcassets */,
+				7CCCB67A28929799004A8D94 /* Srevice */,
 				7C7DE4632891CEC900B619AE /* Info.plist */,
+				7CCCB67D28929B29004A8D94 /* Constant.swift */,
+				7CB787A6289C136F005F2E1C /* Model */,
 			);
 			path = "Hotels Test App";
+			sourceTree = "<group>";
+		};
+		7CB787A6289C136F005F2E1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7CB787A7289C1386005F2E1C /* Hotel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7CCCB67A28929799004A8D94 /* Srevice */ = {
+			isa = PBXGroup;
+			children = (
+				7CCCB67B28929A76004A8D94 /* NetworkService.swift */,
+				7CCCB67F2892BA85004A8D94 /* APIService.swift */,
+			);
+			path = Srevice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +168,10 @@
 			files = (
 				7C7DE45A2891CEC700B619AE /* ViewController.swift in Sources */,
 				7C7DE4562891CEC700B619AE /* AppDelegate.swift in Sources */,
+				7CB787A8289C1386005F2E1C /* Hotel.swift in Sources */,
+				7CCCB67E28929B29004A8D94 /* Constant.swift in Sources */,
+				7CCCB67C28929A76004A8D94 /* NetworkService.swift in Sources */,
+				7CCCB6802892BA85004A8D94 /* APIService.swift in Sources */,
 				7C7DE4582891CEC700B619AE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
